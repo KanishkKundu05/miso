@@ -13,6 +13,15 @@ export default function TabTwoScreen() {
           },
           zoom: 12,
         }}
+        markers={[
+          {
+            coordinates: {
+              latitude: 40.7478,
+              longitude: -73.9884,
+            },
+            title: "Ichiran",
+          },
+        ]}
         properties={{
           isMyLocationEnabled: true,
         }}
